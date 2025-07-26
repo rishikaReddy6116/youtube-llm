@@ -16,7 +16,7 @@ This project extracts transcripts from YouTube videos, restores punctuation, cle
 
 1. **Clone the repository:**
    ```bash
-   🔗 [View the repository on GitHub](https://github.com/rishikaReddy6116/youtube-llm-summarizer)
+   https://github.com/rishikaReddy6116/youtube-llm-summarizer
 
 2. Install dependencies:   
    bash
