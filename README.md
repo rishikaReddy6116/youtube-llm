@@ -1,41 +1,20 @@
 # 🎬 YouTube LLM Summarizer
 
-This project extracts transcripts from YouTube videos, restores punctuation, cleans the text, and summarizes the content using a lightweight LLM via the OpenRouter API.
+This project extracts transcripts from YouTube videos, restores punctuation, cleans the text, and generates a clear, concise summary using lightweight LLMs via the OpenRouter API.
 
 ---
 
-## 🚀 Features
+## ✅ Why This Project?
 
-- Extracts raw transcripts from YouTube videos (using `youtube-transcript-api`)
-- Restores punctuation using `DeepMultilingualPunctuation`
-- Cleans and preprocesses transcript text
-- Generates high-quality summaries using OpenRouter's LLMs (e.g., Mistral, Claude)
-- Runs efficiently even on low-end devices (like MacBook Air M2 with 8GB RAM)
+- 🔍 **Problem**: YouTube videos can be long and time-consuming to watch, especially when you're just looking for the key points.
+- 💡 **Solution**: This tool automates transcript extraction and summarization — giving you a quick understanding of video content without watching it.
+- ⚡ **Efficiency**: Designed to run even on low-resource machines (e.g., MacBook Air M2 with 8GB RAM), by using lightweight tools and external APIs instead of heavy local models.
 
 ---
 
-## 📌 Why is this useful?
+## 🛠️ How to Run
 
-- Saves time by summarizing long video content
-- Useful for students, researchers, and content creators
-- Can handle multi-lingual content
-- Lightweight design avoids heavy local models — perfect for laptops
-
----
-
-## 🛠️ Tech Stack
-
-- Python 3.12+
-- `youtube-transcript-api`
-- `deepmultilingualpunctuation`
-- OpenRouter API for LLM summarization
-- `transformers`, `torch`, `dotenv`
-
----
-
-## 🧪 How to Use
-
-1. Clone the repo:
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/youtube-llm-summarizer.git
+   git clone https://github.com/rishikaReddy6116/youtube-llm-summarizer.git
    cd youtube-llm-summarizer
