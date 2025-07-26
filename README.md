@@ -16,5 +16,25 @@ This project extracts transcripts from YouTube videos, restores punctuation, cle
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/rishikaReddy6116/youtube-llm-summarizer.git
-   cd youtube-llm-summarizer
+   🔗 [View the repository on GitHub](https://github.com/rishikaReddy6116/youtube-llm-summarizer)
+
+2. Install dependencies:   
+   bash
+   Copy
+   Edit
+   pip install -r requirements.txt
+   
+4. Add your OpenRouter API key:
+   Create a .env file in the root directory and add:
+   ini
+   Copy
+   Edit
+   OPENROUTER_API_KEY=your_api_key_here
+   
+6. Run the summarizer:
+   bash
+   Copy
+   Edit
+   python main.py
+
+7. Enter any YouTube video link or ID when prompted.
