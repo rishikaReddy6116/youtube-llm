@@ -1,0 +1,12 @@
+# YouTube-LLM Summarizer
+
+A Python tool that:
+1. Extracts transcript from YouTube videos
+2. Restores punctuation using rpunct
+3. Summarizes the text using OpenAI GPT
+
+## How to Run
+
+1. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
